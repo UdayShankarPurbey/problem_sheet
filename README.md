@@ -94,13 +94,20 @@ Time is a *budget for a candidate*, not a stopwatch. For self-study, double the 
 
 Each level lives in its own file so the index stays light:
 
+**By difficulty level (each tagged with a per-question time budget):**
+
 - [Easy (1000)](questions/easy.md) — fundamentals, syntax, common Angular 21 APIs.
 - [Medium (1000)](questions/medium.md) — multi-step reasoning, common patterns, small-snippet debugging.
 - [Hard (1000)](questions/hard.md) — architecture choices, multi-component flows, SSR/perf, framework edge cases.
 - [Extreme (1000)](questions/extreme.md) — system-level design, framework internals, complex perf, large migrations.
 - [Legends (1000)](questions/legends.md) — open-ended design, custom primitives, deep internals, framework authoring.
 
-**Total: 5,000 questions across five levels.**
+**By question style (each spans all five levels with inline `Easy/Medium/Hard/Extreme/Legends` sections):**
+
+- [Fix the Bug (500)](questions/fix-the-bug.md) — broken code snippets and misuse patterns; identify the bug and state the fix. 100 per level.
+- [Scenarios (500)](questions/scenarios.md) — production incidents, architecture forks, team disagreements, stakeholder negotiations. 100 per level.
+
+**Total: 6,000 questions** (5,000 by-level + 1,000 by-style). Every question carries a time budget aligned with the difficulty legend above.
 
 Topics covered across the bank: HTML, CSS, modern JS, TypeScript, DOM/Browser APIs, Angular components (standalone, inputs/outputs/model, host metadata), parent–child and cross-component communication, content projection, signal queries, signals/computed/effect/linkedSignal/resource, Signal Forms, reactive forms (legacy), routing & guards, lazy loading, HttpClient & interceptors, RxJS, zoneless change detection, hybrid rendering & incremental hydration, `@defer`, Tailwind/styles, accessibility & Angular Aria, animations, i18n, testing (Vitest, harnesses, E2E), performance, security, build & CLI, migrations, and architecture.
 
